@@ -28,12 +28,12 @@ body{
         font-size: 13rem;
         font-weight: bolder;
         font-family: 'Amatic SC', cursive;
-        @include phone{}
+        @include phone{font-size: 17rem;}
         }
 }
 .body1{
     position: relative;
-    height: 100vh;
+    height: 150vh;
     margin-top: 20rem;
     background-image: url(../media/crane-3365971_1920.jpg);
     
@@ -46,7 +46,7 @@ body{
         clip-path: circle(100.6% at 84% 100%);
     }
     @include desktop{
-        clip-path: ellipse(210vh 85vh at 90% 91%);
+        clip-path: ellipse(100% 90% at 90% 95%);
     }
 }
     
