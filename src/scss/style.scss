@@ -1,0 +1,92 @@
+@import "_vars.scss";
+html{
+    font-size: 65%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #066b0669;
+}
+
+.head{
+    position: relative;
+    height: 98vh;
+   
+
+    background-image: url(../media/pripyat-1366156_1280.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include phone{clip-path: ellipse(150% 95% at 40% 5%);}
+    @include desktop{clip-path: ellipse(210vh 85vh at 20% 9%);}
+    
+    .text-h{
+        transform: translate(0%, 50%);
+        text-align: center;
+        font-size: 13rem;
+        font-weight: bolder;
+        font-family: 'Amatic SC', cursive;
+        @include phone{}
+        }
+}
+.body1{
+    position: relative;
+    height: 100vh;
+    margin-top: 20rem;
+    background-image: url(../media/crane-3365971_1920.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    @include phone {
+        clip-path: circle(100.6% at 84% 100%);
+    }
+    @include desktop{
+        clip-path: ellipse(210vh 85vh at 90% 91%);
+    }
+}
+    
+
+
+@keyframes shrink{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(.8);
+
+    }
+    50%{
+        transform: scale(.5);
+
+    }
+    75%{
+        transform: scale(.3);
+    }
+    100%{
+        transform: scale(0);
+    }
+
+}
+
+@keyframes niles{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        
+    }
+}
+
