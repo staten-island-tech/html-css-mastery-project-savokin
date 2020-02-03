@@ -29,6 +29,8 @@ body{
         font-weight: bolder;
         font-family: 'Amatic SC', cursive;
         @include phone{font-size: 17rem;}
+        animation-name: niles;
+        animation-duration: 3s;
         }
 }
 .body1{
@@ -75,17 +77,12 @@ body{
 
 @keyframes niles{
     0%{
-        opacity: 1;
-    }
-    25%{
-        opacity: 1;
-
-    }
-    75%{
         opacity: 0;
     }
+   
+    
     100%{
-        opacity: 0;
+        opacity: 1;
         
     }
 }

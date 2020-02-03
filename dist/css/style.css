@@ -41,6 +41,10 @@ body {
   font-size: 13rem;
   font-weight: bolder;
   font-family: 'Amatic SC', cursive;
+  -webkit-animation-name: niles;
+          animation-name: niles;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 @media (min-width: 600px) {
@@ -121,31 +125,19 @@ body {
 
 @-webkit-keyframes niles {
   0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
     opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 @keyframes niles {
   0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  75% {
     opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */
