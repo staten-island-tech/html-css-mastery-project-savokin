@@ -131,6 +131,15 @@ body {
   }
 }
 
+.body1 .infobox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 @-webkit-keyframes shrink {
   0% {
     -webkit-transform: scale(1);
