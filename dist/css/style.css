@@ -94,13 +94,24 @@ body {
 }
 
 .body1 .infobox1 {
-  margin-top: 10vh;
   max-height: 60%;
   max-width: 65%;
   border-radius: 5px;
   border: 7px dotted orange;
   text-align: center;
   background-color: #ca952394;
+}
+
+@media (min-width: 600px) {
+  .body1 .infobox1 {
+    margin-top: 15vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .body1 .infobox1 {
+    margin-top: 10vh;
+  }
 }
 
 .body1 .infobox1 .about_head {
