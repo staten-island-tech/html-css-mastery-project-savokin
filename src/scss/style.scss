@@ -40,8 +40,8 @@ body{
 }
 .body1{
     position: relative;
-    height: 150vh;
-    margin-top: 20rem;
+    height: 170vh;
+    margin-top: 20vh;
     background-image: url(../media/crane-3365971_1920.jpg);
     
     background-position: center;
@@ -81,6 +81,36 @@ body{
     .infobox2{
         display: flex;
         justify-content: space-evenly;
+        .card{
+            background-color: transparent;
+            max-width: 25%;
+            max-height: 20%;
+            border: 3px solid orange;
+            perspective: 1000px;
+        }
+        .c_inner{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+        .card:hover .c_inner{
+            transform: rotateY(180deg);
+
+        }
+        .c_front, .c_flip{
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+        .c_flip{
+            background-color: orange;
+            color: whitesmoke;
+            transform: rotateY(180deg);
+        }
+
+
         
         
     }

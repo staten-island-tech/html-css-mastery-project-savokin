@@ -62,8 +62,8 @@ body {
 
 .body1 {
   position: relative;
-  height: 150vh;
-  margin-top: 20rem;
+  height: 170vh;
+  margin-top: 20vh;
   background-image: url(../media/crane-3365971_1920.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -138,6 +138,46 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.body1 .infobox2 .card {
+  background-color: transparent;
+  max-width: 25%;
+  max-height: 20%;
+  border: 3px solid orange;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.body1 .infobox2 .c_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.body1 .infobox2 .card:hover .c_inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.body1 .infobox2 .c_front, .body1 .infobox2 .c_flip {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.body1 .infobox2 .c_flip {
+  background-color: orange;
+  color: whitesmoke;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 @-webkit-keyframes shrink {
