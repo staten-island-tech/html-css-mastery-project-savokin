@@ -55,8 +55,12 @@ body{
     @include desktop{
         clip-path: ellipse(100% 90% at 90% 90%);
     }
+   
+   
     display: flex;
-    justify-content: row;
+    justify-items: center;
+    align-items: center;
+    
     
     
     .infobox1{
@@ -78,43 +82,44 @@ body{
             @include desktop{font-size: 3vh;}
         }
     }
-    .infobox2{
-        display: flex;
-        justify-content: space-evenly;
-        .card{
-            background-color: transparent;
-            max-width: 25%;
-            max-height: 20%;
-            border: 3px solid orange;
-            perspective: 1000px;
-        }
-        .c_inner{
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.8s;
-            transform-style: preserve-3d;
-        }
-        .card:hover .c_inner{
-            transform: rotateY(180deg);
-
-        }
-        .c_front, .c_flip{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-        }
-        .c_flip{
-            background-color: orange;
-            color: whitesmoke;
-            transform: rotateY(180deg);
-        }
-
-
+    
+}
+.infobox2{
         
         
+    .card{
+        background-color: transparent;
+        width: 20vh;
+        max-height: 30vh;
+        border: 3px solid orange;
+        perspective: 1000px;
     }
+    .c_inner{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+    .card:hover .c_inner{
+        transform: rotateY(180deg);
+
+    }
+    .c_front, .c_flip{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    .c_flip{
+        background-color: orange;
+        color: whitesmoke;
+        transform: rotateY(180deg);
+    }
+
+
+    
+    
 }
     
 
