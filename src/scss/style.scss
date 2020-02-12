@@ -73,7 +73,7 @@ body{
         max-height: 60%;
         max-width: 65%;
         border-radius: 5px;
-        border: 7px dotted orange;
+        border: 9px dotted orange;
         text-align: center;
         background-color: #ca952394;
         .about_head{
@@ -88,13 +88,24 @@ body{
     
 }
 .infobox2{
-        
+    display: flex;
+    justify-content: space-evenly;
         
     .card{
+        @include phone{
+            margin: 1vh;
+            width: 15vh;
+            height: 30vh;
+        }
+        @include desktop{
+            margin: 10vh;
+            width: 30vh;
+            height: 30vh;
+        }
+        
         position: relative;
         background-color: transparent;
-        width: 20vh;
-        height: 30vh;
+        
         border: 3px solid orange;
         perspective: 1000px;
     }

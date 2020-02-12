@@ -101,7 +101,7 @@ body {
   max-height: 60%;
   max-width: 65%;
   border-radius: 5px;
-  border: 7px dotted orange;
+  border: 9px dotted orange;
   text-align: center;
   background-color: #ca952394;
 }
@@ -123,14 +123,37 @@ body {
   }
 }
 
+.infobox2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .infobox2 .card {
   position: relative;
   background-color: transparent;
-  width: 20vh;
-  height: 30vh;
   border: 3px solid orange;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+}
+
+@media (min-width: 600px) {
+  .infobox2 .card {
+    margin: 1vh;
+    width: 15vh;
+    height: 30vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .infobox2 .card {
+    margin: 10vh;
+    width: 30vh;
+    height: 30vh;
+  }
 }
 
 .infobox2 .c_inner {
