@@ -110,7 +110,7 @@ body{
         perspective: 1000px;
     }
     .c_inner{
-        border: 3px solid orange;
+        
         width: 100%;
         height: 100%;
         transition: transform 0.8s;
@@ -122,13 +122,16 @@ body{
     }
     .c_front, .c_flip{
         border: 3px solid orange;
+        border-radius: 1vh;
         position: absolute;
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
     }
     .c_flip{
+        text-align: center;
         background-color: orange;
+        border-radius: 1vh;
         color: whitesmoke;
         transform: rotateY(180deg);
     }
