@@ -145,6 +145,10 @@ body {
   }
 }
 
+.infobox2 #c:hover {
+  cursor: url("../media/rads.png"), auto;
+}
+
 .infobox2 .card {
   position: relative;
   background-color: transparent;

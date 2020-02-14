@@ -97,6 +97,12 @@ body{
     @include desktop{
         border-radius: 12vh;  
     }  
+    #c{
+
+    }
+    #c:hover {
+        cursor: url("../media/rads.png"), auto;	
+    }
     .card{
         @include phone{
             margin: 1vh;
@@ -124,6 +130,7 @@ body{
     }
     .card:hover .c_inner{
         transform: rotateY(180deg);
+        
 
     }
     .c_front, .c_flip{
