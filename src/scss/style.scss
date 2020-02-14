@@ -91,7 +91,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: #ca952394;
-    border-radius: 12vh;    
+    @include phone{
+        border-radius: 3vh;
+    }
+    @include desktop{
+        border-radius: 12vh;  
+    }  
     .card{
         @include phone{
             margin: 1vh;

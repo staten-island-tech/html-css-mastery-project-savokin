@@ -131,7 +131,18 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-color: #ca952394;
-  border-radius: 12vh;
+}
+
+@media (min-width: 600px) {
+  .infobox2 {
+    border-radius: 3vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .infobox2 {
+    border-radius: 12vh;
+  }
 }
 
 .infobox2 .card {
