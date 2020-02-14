@@ -146,7 +146,7 @@ body {
 }
 
 .infobox2 #c:hover {
-  cursor: url("../media/rads.png"), auto;
+  cursor: url("../media/rads.png"), pointer;
 }
 
 .infobox2 .card {

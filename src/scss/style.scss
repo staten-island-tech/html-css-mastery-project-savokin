@@ -101,7 +101,7 @@ body{
 
     }
     #c:hover {
-        cursor: url("../media/rads.png"), auto;	
+        cursor: url("../media/rads.png"), pointer;	
     }
     .card{
         @include phone{
