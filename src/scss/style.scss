@@ -90,7 +90,8 @@ body{
 .infobox2{
     display: flex;
     justify-content: space-evenly;
-        
+    background-color: #ca952394;
+    border-radius: 12vh;    
     .card{
         @include phone{
             margin: 1vh;

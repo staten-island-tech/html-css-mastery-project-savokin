@@ -130,6 +130,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: #ca952394;
+  border-radius: 12vh;
 }
 
 .infobox2 .card {
