@@ -225,6 +225,28 @@ body {
           transform: rotateY(180deg);
 }
 
+.body2 {
+  background-color: #02b9e7bb;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body2 .title2 {
+  margin: 3vh;
+  font-size: 10vh;
+}
+
+.body2 .merchbox {
+  background-color: #00fff2de;
+  max-height: 50%;
+  max-width: 80%;
+}
+
 @-webkit-keyframes shrink {
   0% {
     -webkit-transform: scale(1);

@@ -53,9 +53,11 @@ body{
     
     @include phone {
         clip-path: circle(100.6% at 84% 100%);
+        
     }
     @include desktop{
         clip-path: ellipse(100% 90% at 90% 90%);
+        
     }
    
    
@@ -164,9 +166,25 @@ body{
     
 }
 .body2{
+    background-color: #02b9e7bb;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    .title2{
+        margin: 3vh;
+        font-size: 10vh;
+    }
+    .merchbox{
+        background-color: #00fff2de;
+        max-height: 50%;
+        max-width: 80%;
+        .smallermb{
+            .
+        }
+    }
     
 }
-    
+
 
 
 @keyframes shrink{
