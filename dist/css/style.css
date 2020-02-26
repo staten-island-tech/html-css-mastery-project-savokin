@@ -225,15 +225,19 @@ body {
           transform: rotateY(180deg);
 }
 
+p {
+  padding: 0px;
+  margin: 0px;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
 .body2 {
   background-color: #02b9e7bb;
   height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 .body2 .title2 {
@@ -243,7 +247,7 @@ body {
 
 .body2 .merchbox {
   background-color: #00fff2de;
-  max-height: 50%;
+  height: 50%;
   max-width: 80%;
 }
 

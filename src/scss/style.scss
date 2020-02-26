@@ -165,22 +165,30 @@ body{
     
     
 }
+p{
+    padding: 0px;
+    margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+
+}
 .body2{
     background-color: #02b9e7bb;
     height: 50vh;
-    display: flex;
-    justify-content: center;
+    
+    text-align: center;
+    
     .title2{
         margin: 3vh;
         font-size: 10vh;
     }
     .merchbox{
+        
         background-color: #00fff2de;
-        max-height: 50%;
+        height: 50%;
         max-width: 80%;
-        .smallermb{
-            .
-        }
+        
+        
     }
     
 }
