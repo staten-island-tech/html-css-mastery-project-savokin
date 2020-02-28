@@ -253,6 +253,29 @@ body {
   background-color: #00fff2de;
   height: 70%;
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body2 .merchbox .smerch {
+  max-width: 20%;
+  height: 90%;
+  border: solid red 3px;
+  border-radius: 1vh;
+}
+
+.body2 .merchbox .smerch .micon {
+  border-radius: 1vh;
+  border-bottom: red solid 3px;
+  height: 90%;
+  width: 100%;
 }
 
 @-webkit-keyframes shrink {
