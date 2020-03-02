@@ -177,29 +177,58 @@ body{
     .title2{
         margin: 0rem;
         font-size: 10vh;
+        @include phone{
+            font-size: 5vh;
+        }
+        @include desktop{
+            font-size: 10vh;
+        }
     }
     .merchbox{
         border-radius: 1vh;
         background-color: #00fff2de;
         height: 70%;
-        width: 80%;
+        
+        @include phone{
+            width: 90%;
+        }
+        @include desktop{
+            width: 80%;
+        }
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         .smerch{
+            @include phone{
+                max-width: 30%;
+                height: 80%;
+            }
+            @include desktop{
+                max-width: 20%;
+                height: 90%;
+            }
             
-            max-width: 20%;
-            height: 90%;
+            
             border: solid red 3px;
             border-radius: 1vh;
+            text-align: center;
+            display: flex;
+            
             .micon{
                 border-radius: 1vh;
                 border-bottom: red solid 3px;
-                height: 90%;
+                height: 85%;
                 width: 100%;
             }
             .mtext{
-
+                @include phone{
+                    font-size: 1.5vh;
+                }
+                @include desktop{
+                    font-size: 3vh;
+                }
+                
+                margin-top: -2px;
             }
         }
         
