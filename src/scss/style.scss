@@ -175,6 +175,7 @@ body{
     justify-content: space-evenly;
     flex-direction: column;
     .title2{
+        font-family: 'Trade Winds', cursive;
         margin: 0rem;
         font-size: 10vh;
         @include phone{
@@ -187,13 +188,15 @@ body{
     .merchbox{
         border-radius: 1vh;
         background-color: #00fff2de;
-        height: 70%;
+        
         
         @include phone{
             width: 90%;
+            height: 65%;
         }
         @include desktop{
             width: 80%;
+            height: 70%;
         }
         display: flex;
         justify-content: space-evenly;
@@ -201,7 +204,7 @@ body{
         .smerch{
             @include phone{
                 max-width: 30%;
-                height: 80%;
+                height: 70%;
             }
             @include desktop{
                 max-width: 20%;
