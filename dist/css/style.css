@@ -399,9 +399,31 @@ body {
   }
 }
 
+.body3 .bless .sseth_desc {
+  text-align: left;
+  max-width: 35%;
+  height: 80%;
+  border-top: solid #01a767 3px;
+  border-left: solid #01a767 3px;
+  border-bottom: solid #01a767 3px;
+}
+
+@media (min-width: 600px) {
+  .body3 .bless .sseth_desc {
+    font-size: 1.5vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .body3 .bless .sseth_desc {
+    font-size: 3vh;
+  }
+}
+
 .body3 .bless .sseth {
   width: 50%;
   height: 80%;
+  float: right;
 }
 
 @-webkit-keyframes shrink {
