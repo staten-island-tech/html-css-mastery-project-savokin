@@ -335,6 +335,75 @@ body {
   }
 }
 
+.body3 {
+  height: 50vh;
+  background-color: #03bb75b7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body3 .title3 {
+  font-family: 'Trade Winds', cursive;
+  margin: 0rem;
+  font-size: 10vh;
+}
+
+@media (min-width: 600px) {
+  .body3 .title3 {
+    font-size: 5vh;
+  }
+}
+
+@media (min-width: 1100px) {
+  .body3 .title3 {
+    font-size: 10vh;
+  }
+}
+
+.body3 .bless {
+  border-radius: 1vh;
+  background-color: #00ff95e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 600px) {
+  .body3 .bless {
+    width: 90%;
+    height: 65%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .body3 .bless {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+.body3 .bless .sseth {
+  width: 50%;
+  height: 80%;
+}
+
 @-webkit-keyframes shrink {
   0% {
     -webkit-transform: scale(1);
