@@ -425,6 +425,36 @@ body {
   height: 80%;
 }
 
+.last {
+  background-color: #353127e8;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last .logo {
+  max-width: 20%;
+  max-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.last .end_text {
+  font-size: 2vh;
+  color: #e4cea194;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+}
+
 @-webkit-keyframes shrink {
   0% {
     -webkit-transform: scale(1);
