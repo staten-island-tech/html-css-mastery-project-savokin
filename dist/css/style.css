@@ -421,9 +421,8 @@ body {
 }
 
 .body3 .bless .sseth {
-  width: 50%;
+  width: 40%;
   height: 80%;
-  float: right;
 }
 
 @-webkit-keyframes shrink {
