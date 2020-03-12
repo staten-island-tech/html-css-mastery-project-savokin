@@ -27,7 +27,7 @@ body{
     z-index: 100;
     .navbutton{
         float: left;
-        
+        width: 15%;
         
     }
     .navbutton a{
@@ -37,6 +37,7 @@ body{
         font-size: 4vh;
         text-decoration: none;
         padding: 8px 8px;
+        
         border-right: #afac07cc solid 3px
     }
 }

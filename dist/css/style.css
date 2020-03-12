@@ -33,6 +33,7 @@ body {
 
 .navbar .navbutton {
   float: left;
+  width: 15%;
 }
 
 .navbar .navbutton a {
